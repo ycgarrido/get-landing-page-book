@@ -297,7 +297,7 @@ export default () => (
     </Section>
     <Section subTitle="Who donates us" title="BACKERS" gray>
       <Container className="text-center">
-        <Backers backers={backers} />
+        <Backers backers={backers} imageBordered={false} />
       </Container>
     </Section>
     <Footer>
