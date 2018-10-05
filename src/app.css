@@ -45,6 +45,10 @@ body {
   width: auto;
 }
 
+.Video {
+  max-width: 800px;
+}
+
 .main-header {
   font-size: 3rem;
   font-weight: 700;
