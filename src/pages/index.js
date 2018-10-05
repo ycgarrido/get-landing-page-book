@@ -103,11 +103,6 @@ export default () => (
     </Hero>
     <Section gray>
       <Container className="text-center">
-        <Image
-          className="gif-toolbar"
-          src="images/demo/top-bar.svg"
-          alt="Code tool bar"
-        />
         <Gif autoplay image="images/demo/code.gif" />
       </Container>
     </Section>
