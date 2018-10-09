@@ -128,25 +128,7 @@ export default () => (
         </Link>
       </Container>
     </Section>
-    <Section
-      subTitle="One Look Is Worth A Thousand Words"
-      title="TAKE A SNEAK PEEK"
-      gray
-    >
-      <Container>
-        <Video source="https://youtu.be/dCrLwWdju68" />
-      </Container>
-      <Container className="text-center mt-5">
-        <Link
-          className="btn btn-primary btn-started"
-          href="https://front10.com/landing-page-book"
-          target="_blank"
-        >
-          Explore
-        </Link>
-      </Container>
-    </Section>
-    <Section subTitle="Very fast and easy to use" title="OUR CODE">
+    <Section subTitle="Very fast and easy to use" title="OUR CODE" gray>
       <Container>
         <Row>
           <Column className="col col-md-12">
@@ -222,7 +204,6 @@ export default () => (
     <Section
       title="THEMING"
       subTitle=" Change the appearance of the components using standard CSS variables"
-      gray
     >
       <Container>
         <Row>
@@ -241,12 +222,12 @@ export default () => (
         </Link>
       </Container>
     </Section>
-    <Section subTitle="Used tecnologies and frameworks" title="BUILD WITH">
+    <Section subTitle="Used tecnologies and frameworks" title="BUILD WITH" gray>
       <Container className="text-center BuildWith">
         <BuiltWith gray companies={build} />
       </Container>
     </Section>
-    <Section subTitle="These are our members" title="TEAM" gray>
+    <Section subTitle="These are our members" title="TEAM">
       <Container>
         <Team
           showBorder={false}
@@ -264,7 +245,11 @@ export default () => (
         </Link>
       </Container>
     </Section>
-    <Section subTitle="We are happy to help ;)" title="FEEDBACK AND SUPPORT">
+    <Section
+      subTitle="We are happy to help ;)"
+      title="FEEDBACK AND SUPPORT"
+      gray
+    >
       <Container className="text-center BuildWith">
         <Image
           src="images/support/maintenance.svg"
@@ -290,7 +275,7 @@ export default () => (
         </p>
       </Container>
     </Section>
-    <Section subTitle="Who donates us" title="BACKERS" gray>
+    <Section subTitle="Who donates us" title="BACKERS">
       <Container className="text-center">
         <Backers backers={backers} imageBordered={false} />
       </Container>
