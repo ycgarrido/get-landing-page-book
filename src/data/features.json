@@ -10,14 +10,14 @@
     "image": "images/features/rocket.png",
     "title": "Simple",
     "subtitle": "Easy to use",
-    "summary": "You can do a lot in your wep application with little code and very fast.",
+    "summary": "You can do a lot in your web application with little code and very fast.",
     "link": "1"
   },
   {
     "image": "images/features/themes.png",
     "title": "Theming",
     "subtitle": "Easy to create themes",
-    "summary": "Library customization with Css variables for easy theming and component changes.",
+    "summary": "Library customization with CSS variables for easy theming and component changes.",
     "link": "3"
   },
   {
