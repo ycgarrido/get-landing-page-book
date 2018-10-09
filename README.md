@@ -10,7 +10,7 @@ You can find the most recent version of this guide [here](https://www.gatsbyjs.o
 #### Downloading the source code
 
 ```
-# git clone https://github.com/front10/landing-page-gatsby
+# git clone https://github.com/front10/get-landing-page-book
 ```
 
 #### Running the App
