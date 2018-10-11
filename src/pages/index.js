@@ -1,6 +1,8 @@
 //core
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 //front10 components
 import "@front10/landing-page-book/dist/components/Hero/style.legacy_browsers.css";
 import "@front10/landing-page-book/dist/components/Team/style.legacy_browsers.css";
@@ -52,6 +54,7 @@ import Donation from "@front10/landing-page-book/dist/components/Donation";
 import Link from "@front10/landing-page-book/dist/components/Link";
 import Analytics from "@front10/landing-page-book/dist/components/Analytics";
 
+import Slider from "react-slick";
 import Helmet from "react-helmet";
 
 import AnimatedHero from "../hero.jsx";
@@ -61,6 +64,7 @@ import features from "../data/features.json";
 import particles from "../data/particles.json";
 import build from "../data/build.json";
 import backers from "../data/backers.json";
+import carousel from "../data/carousel.json";
 import { navBarCode, importThemes } from "../data/code";
 
 import logo from "../favicon.png";
@@ -128,14 +132,146 @@ export default () => (
         </Link>
       </Container>
     </Section>
-    {/* <Section title="AT A GLANCE" subTitle="Here adds a carousel or a marquee with all the components" gray>
+    <Section title="AT A GLANCE" subTitle="Some of our components" gray>
       <Container className="text-center">
-        <Image
-            src="images/components/components-collage.png"
-          />
+        <Slider {...carousel}>
+          <div>
+            <Link
+              href="https://front10.com/landing-page-book/?knob-Brand%20name=&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Expand=md&selectedKind=Components%2FNavbar&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobss"
+              target="_blank"
+            >
+              <Image src="images/components/navbar.png" alt="Navigation" />
+              <Header className="mt-3" type="h6">
+                Navbar
+              </Header>
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Centered=true&knob-Min%20height=100vh&knob-Expand=md&knob-Opacity=1&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&selectedKind=Components%2FHero&selectedStory=Children&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
+              target="_blank"
+            >
+              <Image src="images/components/hero.png" alt="Superhero" />
+              <Header className="mt-3" type="h6">
+                Hero
+              </Header>
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Show%20image=true&knob-Show%20job=true&knob-Expand=md&knob-Opacity=1&knob-Show%20name=true&knob-Show%20border=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&selectedKind=Components%2FTeam&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
+              target="_blank"
+            >
+              <Image src="images/components/team.png" alt="Team" />
+              <Header className="mt-3" type="h6">
+                Team
+              </Header>
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Show%20image=true&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Opacity=1&knob-Show%20name=true&knob-Show%20border=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&selectedKind=Components%2FBackers&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
+              target="_blank"
+            >
+              <Image src="images/components/backers.png" alt="Backers" />
+              <Header className="mt-3" type="h6">
+                Backers
+              </Header>
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Show%20image=true&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Button%20type=facebook&knob-Opacity=1&knob-Rounded=true&knob-Show%20name=true&knob-Url=https%3A%2F%2Ffront10.com&knob-Show%20border=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&selectedKind=Components%2FSocial&selectedStory=All&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
+              target="_blank"
+            >
+              <Image src="images/components/socials.png" alt="Socials" />
+              <Header className="mt-3" type="h6">
+                Socials
+              </Header>
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Show%20image=true&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Button%20type=facebook&knob-Opacity=1&knob-Rounded=true&knob-Show%20name=true&knob-Url=https%3A%2F%2Ffront10.com&knob-Show%20border=true&knob-Show%20text=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&selectedKind=Components%2FBrowsersSupport&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
+              target="_blank"
+            >
+              <Image src="images/components/browsers.png" alt="Browsers" />
+              <Header className="mt-3" type="h6">
+                Browser support
+              </Header>
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Show%20image=true&knob-Width=100&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Button%20type=facebook&knob-Alt=This%20is%20an%20image%20example&knob-Source=https%3A%2F%2Fsbforge.org%2Fimages%2Ficons%2Fprofilepics%2Fdefault.png&knob-Use%20gray=true&knob-Opacity=1&knob-Show%20name=true&knob-Url=https%3A%2F%2Ffront10.com&knob-Show%20border=true&knob-Show%20text=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&knob-Height=100&selectedKind=Elements&selectedStory=Image&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
+              target="_blank"
+            >
+              <Image src="images/components/image.png" alt="Images" />
+              <Header className="mt-3" type="h6">
+                Images
+              </Header>
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Show%20image=true&knob-Width=640px&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Button%20type=facebook&knob-Volume=1&knob-Alt=This%20is%20an%20image%20example&knob-Source=https%3A%2F%2Fyoutu.be%2FdCrLwWdju68&knob-Use%20gray=true&knob-Opacity=1&knob-Show%20name=true&knob-Url=https%3A%2F%2Ffront10.com&knob-Show%20border=true&knob-Show%20text=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&knob-Height=360px&selectedKind=Components%2FVideo&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
+              target="_blank"
+            >
+              <Image src="images/components/video.png" alt="Video" />
+              <Header className="mt-3" type="h6">
+                Video
+              </Header>
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Code=var%20component%20%3D%20%7B%0A%09name%3A%20%22react-code%22%2C%0A%09author%3A%20%22front10-devs%22%2C%0A%09repo%3A%20%22https%3A%2F%2Fgitlab.com%2Ffront10-devs%2Flanding-page-book%22%0A%7D%3B&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-Show%20footer=true&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Show%20line%20numbers=true&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Language=javascript&knob-Show%20image=true&knob-Width=640px&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Button%20type=facebook&knob-Volume=1&knob-Alt=This%20is%20an%20image%20example&knob-Source=https%3A%2F%2Fyoutu.be%2FdCrLwWdju68&knob-Use%20gray=true&knob-Opacity=1&knob-Code%20link=https%3A%2F%2Fcodesandbox.io%2Fs%2Fpmjvk5wl27&knob-Show%20name=true&knob-Url=https%3A%2F%2Ffront10.com&knob-Show%20border=true&knob-Show%20header=true&knob-Show%20text=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&knob-Height=360px&selectedKind=Components%2FCode&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
+              target="_blank"
+            >
+              <Image src="images/components/code.png" alt="Code" />
+              <Header className="mt-3" type="h6">
+                Code
+              </Header>
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Code=var%20component%20%3D%20%7B%0A%09name%3A%20%22react-code%22%2C%0A%09author%3A%20%22front10-devs%22%2C%0A%09repo%3A%20%22https%3A%2F%2Fgitlab.com%2Ffront10-devs%2Flanding-page-book%22%0A%7D%3B&knob-Image=images%2Fgif%2Fwrite.gif&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-Show%20footer=true&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Show%20line%20numbers=true&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Language=javascript&knob-Show%20image=true&knob-Width=640px&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Button%20type=facebook&knob-Volume=1&knob-Preview=images%2Fdemo%2Fdevelop.png&knob-Alt=This%20is%20an%20image%20example&knob-Source=https%3A%2F%2Fyoutu.be%2FdCrLwWdju68&knob-Use%20gray=true&knob-Opacity=1&knob-Code%20link=https%3A%2F%2Fcodesandbox.io%2Fs%2Fpmjvk5wl27&knob-Show%20name=true&knob-Url=https%3A%2F%2Ffront10.com&knob-Show%20border=true&knob-Show%20header=true&knob-Show%20text=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&knob-Height=360px&selectedKind=Components%2FGif&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
+              target="_blank"
+            >
+              <Image src="images/components/gif.png" alt="Gif" />
+              <Header className="mt-3" type="h6">
+                Gif
+              </Header>
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="https://front10.com/landing-page-book/?knob-Show%20count=true&knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Code=var%20component%20%3D%20%7B%0A%09name%3A%20%22react-code%22%2C%0A%09author%3A%20%22front10-devs%22%2C%0A%09repo%3A%20%22https%3A%2F%2Fgitlab.com%2Ffront10-devs%2Flanding-page-book%22%0A%7D%3B&knob-Image=images%2Fgif%2Fwrite.gif&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Type%20of%20buton=star&knob-Content%20align=center&knob-Show%20footer=true&knob-Btn%20text=stars&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Show%20line%20numbers=true&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Language=javascript&knob-Show%20image=true&knob-Show%20button%20text=true&knob-Width=640px&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Button%20type=facebook&knob-Volume=1&knob-Preview=images%2Fdemo%2Fdevelop.png&knob-Alt=This%20is%20an%20image%20example&knob-Source=https%3A%2F%2Fyoutu.be%2FdCrLwWdju68&knob-Use%20gray=true&knob-Opacity=1&knob-Code%20link=https%3A%2F%2Fcodesandbox.io%2Fs%2Fpmjvk5wl27&knob-Show%20name=true&knob-Url=https%3A%2F%2Ffront10.com&knob-Show%20border=true&knob-Show%20header=true&knob-Show%20text=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&knob-Loading%20class=fa%20fa-circle-o-notch%20fa-spin&knob-Height=360px&selectedKind=Components%2FGithubButton&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
+              target="_blank"
+            >
+              <Image
+                src="images/components/githubbutton.png"
+                alt="Githubbutton"
+              />
+              <Header className="mt-3" type="h6">
+                Github button
+              </Header>
+            </Link>
+          </div>
+        </Slider>
       </Container>
-    </Section> */}
-    <Section subTitle="Don't try this at home ;)" title="AN EXAMPLE" gray>
+      <Container className="text-center mt-5">
+        <Link
+          className="btn btn-primary btn-started"
+          href="https://front10.com/landing-page-book"
+          target="_blank"
+        >
+          Explore
+        </Link>
+      </Container>
+    </Section>
+    <Section subTitle="Don't try this at home ;)" title="AN EXAMPLE">
       <Container>
         <Row>
           <Column className="col col-md-12">
@@ -211,6 +347,7 @@ export default () => (
     <Section
       title="THEMING"
       subTitle=" Change the appearance of the components using standard CSS variables"
+      gray
     >
       <Container>
         <Row>
@@ -229,12 +366,12 @@ export default () => (
         </Link>
       </Container>
     </Section>
-    <Section subTitle="Used tecnologies and frameworks" title="BUILD WITH" gray>
+    <Section subTitle="Used tecnologies and frameworks" title="BUILD WITH">
       <Container className="text-center BuildWith">
         <BuiltWith gray companies={build} />
       </Container>
     </Section>
-    <Section subTitle="These are our members" title="TEAM">
+    <Section subTitle="These are our members" title="TEAM" gray>
       <Container>
         <Team
           showBorder={false}
@@ -255,7 +392,6 @@ export default () => (
     <Section
       subTitle="We are very happy to help ;)"
       title="FEEDBACK AND SUPPORT"
-      gray
     >
       <Container className="text-center BuildWith">
         <Image
@@ -271,7 +407,8 @@ export default () => (
           className="ml-3 mr-3"
         />
         <p className="mt-3">
-          For feedback, issues or if you want us to include <i>**new components**</i> please{" "}
+          For feedback, issues or if you want us to include{" "}
+          <i>**new components**</i> please{" "}
           <Link
             href="https://github.com/front10/landing-page-book/issues"
             target="_blank"
@@ -282,7 +419,7 @@ export default () => (
         </p>
       </Container>
     </Section>
-    <Section subTitle="Who donates us" title="BACKERS">
+    <Section subTitle="Who donates us" title="BACKERS" gray>
       <Container className="text-center">
         <Backers backers={backers} imageBordered={false} />
       </Container>
