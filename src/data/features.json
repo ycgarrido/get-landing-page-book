@@ -2,29 +2,25 @@
   {
     "image": "images/features/components.png",
     "title": "+40 Components",
-    "subtitle": "Variety of components",
-    "summary": "You have 44 available components to create your landing page.",
+    "summary": "Hero, GitHub Buttons, Code, Backers, Donations, Navbar, etc. All of them well documented and tested.",
     "link": "2"
   },
   {
     "image": "images/features/rocket.png",
     "title": "Simple",
-    "subtitle": "Easy to use",
-    "summary": "You can do a lot in your web application with little code and very fast.",
+    "summary": "Zero config, Online playground, Lots of examples.",
     "link": "1"
   },
   {
     "image": "images/features/themes.png",
     "title": "Theming",
-    "subtitle": "Easy to create themes",
-    "summary": "Library customization with CSS variables for easy theming and component changes.",
+    "summary": "Change the components colors, fonts, and  look and feel in general using CSS variables.",
     "link": "3"
   },
   {
     "image": "images/features/testing.png",
-    "title": "Testing",
-    "subtitle": "Robust components",
-    "summary": "All our components are tested, like a Swiss watch. With code coverage above 70%",
+    "title": "Integration",
+    "summary": "Proven and painless integration with Create React App, GatsbyJS and NextJS.",
     "link": "4"
   }
 ]

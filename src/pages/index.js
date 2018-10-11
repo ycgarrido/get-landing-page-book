@@ -128,7 +128,14 @@ export default () => (
         </Link>
       </Container>
     </Section>
-    <Section subTitle="Very fast and easy to use" title="OUR CODE" gray>
+    {/* <Section title="AT A GLANCE" subTitle="Here adds a carousel or a marquee with all the components" gray>
+      <Container className="text-center">
+        <Image
+            src="images/components/components-collage.png"
+          />
+      </Container>
+    </Section> */}
+    <Section subTitle="Don't try this at home ;)" title="AN EXAMPLE" gray>
       <Container>
         <Row>
           <Column className="col col-md-12">
@@ -246,7 +253,7 @@ export default () => (
       </Container>
     </Section>
     <Section
-      subTitle="We are happy to help ;)"
+      subTitle="We are very happy to help ;)"
       title="FEEDBACK AND SUPPORT"
       gray
     >
@@ -264,7 +271,7 @@ export default () => (
           className="ml-3 mr-3"
         />
         <p className="mt-3">
-          To report any issues or feedback please{" "}
+          For feedback, issues or if you want us to include <i>**new components**</i> please{" "}
           <Link
             href="https://github.com/front10/landing-page-book/issues"
             target="_blank"
