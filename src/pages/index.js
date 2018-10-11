@@ -140,7 +140,11 @@ export default () => (
               href="https://front10.com/landing-page-book/?knob-Brand%20name=&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Expand=md&selectedKind=Components%2FNavbar&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobss"
               target="_blank"
             >
-              <Image src="images/components/navbar.png" alt="Navigation" />
+              <Image
+                src="images/components/navbar.png"
+                alt="Navigation"
+                width="50"
+              />
               <Header className="mt-3" type="h6">
                 Navbar
               </Header>
@@ -151,7 +155,11 @@ export default () => (
               href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Centered=true&knob-Min%20height=100vh&knob-Expand=md&knob-Opacity=1&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&selectedKind=Components%2FHero&selectedStory=Children&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
               target="_blank"
             >
-              <Image src="images/components/hero.png" alt="Superhero" />
+              <Image
+                src="images/components/hero.png"
+                alt="Superhero"
+                width="50"
+              />
               <Header className="mt-3" type="h6">
                 Hero
               </Header>
@@ -162,7 +170,7 @@ export default () => (
               href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Show%20image=true&knob-Show%20job=true&knob-Expand=md&knob-Opacity=1&knob-Show%20name=true&knob-Show%20border=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&selectedKind=Components%2FTeam&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
               target="_blank"
             >
-              <Image src="images/components/team.png" alt="Team" />
+              <Image src="images/components/team.png" alt="Team" width="50" />
               <Header className="mt-3" type="h6">
                 Team
               </Header>
@@ -173,7 +181,11 @@ export default () => (
               href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Show%20image=true&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Opacity=1&knob-Show%20name=true&knob-Show%20border=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&selectedKind=Components%2FBackers&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
               target="_blank"
             >
-              <Image src="images/components/backers.png" alt="Backers" />
+              <Image
+                src="images/components/backers.png"
+                alt="Backers"
+                width="50"
+              />
               <Header className="mt-3" type="h6">
                 Backers
               </Header>
@@ -184,7 +196,11 @@ export default () => (
               href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Show%20image=true&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Button%20type=facebook&knob-Opacity=1&knob-Rounded=true&knob-Show%20name=true&knob-Url=https%3A%2F%2Ffront10.com&knob-Show%20border=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&selectedKind=Components%2FSocial&selectedStory=All&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
               target="_blank"
             >
-              <Image src="images/components/socials.png" alt="Socials" />
+              <Image
+                src="images/components/socials.png"
+                alt="Socials"
+                width="50"
+              />
               <Header className="mt-3" type="h6">
                 Socials
               </Header>
@@ -195,7 +211,11 @@ export default () => (
               href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Show%20image=true&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Button%20type=facebook&knob-Opacity=1&knob-Rounded=true&knob-Show%20name=true&knob-Url=https%3A%2F%2Ffront10.com&knob-Show%20border=true&knob-Show%20text=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&selectedKind=Components%2FBrowsersSupport&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
               target="_blank"
             >
-              <Image src="images/components/browsers.png" alt="Browsers" />
+              <Image
+                src="images/components/browsers.png"
+                alt="Browsers"
+                width="50"
+              />
               <Header className="mt-3" type="h6">
                 Browser support
               </Header>
@@ -206,7 +226,11 @@ export default () => (
               href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Show%20image=true&knob-Width=100&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Button%20type=facebook&knob-Alt=This%20is%20an%20image%20example&knob-Source=https%3A%2F%2Fsbforge.org%2Fimages%2Ficons%2Fprofilepics%2Fdefault.png&knob-Use%20gray=true&knob-Opacity=1&knob-Show%20name=true&knob-Url=https%3A%2F%2Ffront10.com&knob-Show%20border=true&knob-Show%20text=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&knob-Height=100&selectedKind=Elements&selectedStory=Image&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
               target="_blank"
             >
-              <Image src="images/components/image.png" alt="Images" />
+              <Image
+                src="images/components/image.png"
+                alt="Images"
+                width="50"
+              />
               <Header className="mt-3" type="h6">
                 Images
               </Header>
@@ -217,7 +241,7 @@ export default () => (
               href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Show%20image=true&knob-Width=640px&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Button%20type=facebook&knob-Volume=1&knob-Alt=This%20is%20an%20image%20example&knob-Source=https%3A%2F%2Fyoutu.be%2FdCrLwWdju68&knob-Use%20gray=true&knob-Opacity=1&knob-Show%20name=true&knob-Url=https%3A%2F%2Ffront10.com&knob-Show%20border=true&knob-Show%20text=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&knob-Height=360px&selectedKind=Components%2FVideo&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
               target="_blank"
             >
-              <Image src="images/components/video.png" alt="Video" />
+              <Image src="images/components/video.png" alt="Video" width="50" />
               <Header className="mt-3" type="h6">
                 Video
               </Header>
@@ -228,7 +252,7 @@ export default () => (
               href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Code=var%20component%20%3D%20%7B%0A%09name%3A%20%22react-code%22%2C%0A%09author%3A%20%22front10-devs%22%2C%0A%09repo%3A%20%22https%3A%2F%2Fgitlab.com%2Ffront10-devs%2Flanding-page-book%22%0A%7D%3B&knob-Image=https%3A%2F%2Ffront10.com%2Fimg%2Fheader-bg.jpg&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-Show%20footer=true&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Show%20line%20numbers=true&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Language=javascript&knob-Show%20image=true&knob-Width=640px&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Button%20type=facebook&knob-Volume=1&knob-Alt=This%20is%20an%20image%20example&knob-Source=https%3A%2F%2Fyoutu.be%2FdCrLwWdju68&knob-Use%20gray=true&knob-Opacity=1&knob-Code%20link=https%3A%2F%2Fcodesandbox.io%2Fs%2Fpmjvk5wl27&knob-Show%20name=true&knob-Url=https%3A%2F%2Ffront10.com&knob-Show%20border=true&knob-Show%20header=true&knob-Show%20text=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&knob-Height=360px&selectedKind=Components%2FCode&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
               target="_blank"
             >
-              <Image src="images/components/code.png" alt="Code" />
+              <Image src="images/components/code.png" alt="Code" width="50" />
               <Header className="mt-3" type="h6">
                 Code
               </Header>
@@ -239,7 +263,7 @@ export default () => (
               href="https://front10.com/landing-page-book/?knob-Sub%20header=React%20components%20to%20build%21&knob-Header=Landing%20Page%20Book&knob-Code=var%20component%20%3D%20%7B%0A%09name%3A%20%22react-code%22%2C%0A%09author%3A%20%22front10-devs%22%2C%0A%09repo%3A%20%22https%3A%2F%2Fgitlab.com%2Ffront10-devs%2Flanding-page-book%22%0A%7D%3B&knob-Image=images%2Fgif%2Fwrite.gif&knob-Sub%20header%20position=bottom&knob-Parallax%20offset=0&knob-Content%20align=center&knob-Show%20footer=true&knob-With%20particles=true&knob-Brand%20link=https%3A%2F%2Ffront10.com&knob-Show%20line%20numbers=true&knob-Centered=true&knob-Image%20circle=true&knob-Min%20height=100vh&knob-Language=javascript&knob-Show%20image=true&knob-Width=640px&knob-Image%20rounded=true&knob-Show%20job=true&knob-Expand=md&knob-Button%20type=facebook&knob-Volume=1&knob-Preview=images%2Fdemo%2Fdevelop.png&knob-Alt=This%20is%20an%20image%20example&knob-Source=https%3A%2F%2Fyoutu.be%2FdCrLwWdju68&knob-Use%20gray=true&knob-Opacity=1&knob-Code%20link=https%3A%2F%2Fcodesandbox.io%2Fs%2Fpmjvk5wl27&knob-Show%20name=true&knob-Url=https%3A%2F%2Ffront10.com&knob-Show%20border=true&knob-Show%20header=true&knob-Show%20text=true&knob-Show%20summary=true&knob-Brand%20logo=images%2Flogo%2Ffront10.png&knob-Brand%20name=&knob-Overlay%20color=%23373D45&knob-Fixed=true&knob-Height=360px&selectedKind=Components%2FGif&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs"
               target="_blank"
             >
-              <Image src="images/components/gif.png" alt="Gif" />
+              <Image src="images/components/gif.png" alt="Gif" width="50" />
               <Header className="mt-3" type="h6">
                 Gif
               </Header>
@@ -253,6 +277,7 @@ export default () => (
               <Image
                 src="images/components/githubbutton.png"
                 alt="Githubbutton"
+                width="50"
               />
               <Header className="mt-3" type="h6">
                 Github button

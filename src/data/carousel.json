@@ -5,7 +5,7 @@
   "slidesToScroll": 1,
   "autoplay": true,
   "arrows": false,
-  "dots": false,
+  "dots": true,
   "responsive": [
     {
       "breakpoint": 1024,
