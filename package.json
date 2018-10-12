@@ -19,7 +19,9 @@
         "gatsby-plugin-styled-components": "^3.0.0",
         "react": "^16.5.1",
         "react-dom": "^16.5.1",
-        "react-helmet": "^5.2.0"
+        "react-helmet": "^5.2.0",
+        "react-slick": "^0.23.1",
+        "slick-carousel": "^1.8.1"
     },
     "devDependencies": {
         "gh-pages": "^2.0.0"
