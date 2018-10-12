@@ -2,7 +2,7 @@
   "infinite": true,
   "speed": 200,
   "slidesToShow": 5,
-  "slidesToScroll": 1,
+  "slidesToScroll": 5,
   "autoplay": true,
   "arrows": false,
   "dots": true,
