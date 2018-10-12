@@ -145,7 +145,7 @@ export default () => (
                 alt="Navigation"
                 width="50"
               />
-              <Header className="mt-3" type="h6">
+              <Header className="mt-3 component-link" type="h6">
                 Navbar
               </Header>
             </Link>
@@ -160,7 +160,7 @@ export default () => (
                 alt="Superhero"
                 width="50"
               />
-              <Header className="mt-3" type="h6">
+              <Header className="mt-3 component-link" type="h6">
                 Hero
               </Header>
             </Link>
@@ -171,7 +171,7 @@ export default () => (
               target="_blank"
             >
               <Image src="images/components/team.png" alt="Team" width="50" />
-              <Header className="mt-3" type="h6">
+              <Header className="mt-3 component-link" type="h6">
                 Team
               </Header>
             </Link>
@@ -186,7 +186,7 @@ export default () => (
                 alt="Backers"
                 width="50"
               />
-              <Header className="mt-3" type="h6">
+              <Header className="mt-3 component-link" type="h6">
                 Backers
               </Header>
             </Link>
@@ -201,7 +201,7 @@ export default () => (
                 alt="Socials"
                 width="50"
               />
-              <Header className="mt-3" type="h6">
+              <Header className="mt-3 component-link" type="h6">
                 Socials
               </Header>
             </Link>
@@ -216,7 +216,7 @@ export default () => (
                 alt="Browsers"
                 width="50"
               />
-              <Header className="mt-3" type="h6">
+              <Header className="mt-3 component-link" type="h6">
                 Browser support
               </Header>
             </Link>
@@ -231,7 +231,7 @@ export default () => (
                 alt="Images"
                 width="50"
               />
-              <Header className="mt-3" type="h6">
+              <Header className="mt-3 component-link" type="h6">
                 Images
               </Header>
             </Link>
@@ -242,7 +242,7 @@ export default () => (
               target="_blank"
             >
               <Image src="images/components/video.png" alt="Video" width="50" />
-              <Header className="mt-3" type="h6">
+              <Header className="mt-3 component-link" type="h6">
                 Video
               </Header>
             </Link>
@@ -253,7 +253,7 @@ export default () => (
               target="_blank"
             >
               <Image src="images/components/code.png" alt="Code" width="50" />
-              <Header className="mt-3" type="h6">
+              <Header className="mt-3 component-link" type="h6">
                 Code
               </Header>
             </Link>
@@ -264,7 +264,7 @@ export default () => (
               target="_blank"
             >
               <Image src="images/components/gif.png" alt="Gif" width="50" />
-              <Header className="mt-3" type="h6">
+              <Header className="mt-3 component-link" type="h6">
                 Gif
               </Header>
             </Link>
@@ -279,7 +279,7 @@ export default () => (
                 alt="Githubbutton"
                 width="50"
               />
-              <Header className="mt-3" type="h6">
+              <Header className="mt-3 component-link" type="h6">
                 Github button
               </Header>
             </Link>
