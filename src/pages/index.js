@@ -132,7 +132,7 @@ export default () => (
         </Link>
       </Container>
     </Section>
-    <Section title="AT A GLANCE" subTitle="Some of our components" gray>
+    <Section title="AT A GLANCE" subTitle="Some of the components" gray>
       <Container className="text-center">
         <Slider {...carousel}>
           <div>
