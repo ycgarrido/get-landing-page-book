@@ -72,14 +72,11 @@ import logo from "../favicon.png";
 export default () => (
   <div className="App">
     <Helmet defaultTitle={`Landing Page Book`}>
-      <meta name="og:title" content="Landing Page Book" />
+      <meta property="og:title" content="Landing Page Book" />
+      <meta property="og:image" content="images/logo/facebook.png" />
+      <meta property="og:description" content="React components to build!" />
       <meta
-        name="og:url"
-        content="https://front10.com/get-landing-page-book/"
-      />
-      <meta name="description" content="React components to build!" />
-      <meta
-        name="og:description"
+        property="og:url"
         content="https://front10.com/get-landing-page-book/"
       />
       <link rel="shortcut icon" href={logo} />
