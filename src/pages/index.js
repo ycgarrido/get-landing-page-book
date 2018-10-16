@@ -73,7 +73,10 @@ export default () => (
   <div className="App">
     <Helmet defaultTitle={`Landing Page Book`}>
       <meta property="og:title" content="Landing Page Book" />
-      <meta property="og:image" content="images/logo/facebook.png" />
+      <meta
+        property="og:image"
+        content="https://front10.com/get-landing-page-book/images/logo/facebook.png"
+      />
       <meta property="og:description" content="React components to build!" />
       <meta
         property="og:url"
