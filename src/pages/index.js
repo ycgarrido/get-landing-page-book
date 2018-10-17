@@ -77,7 +77,7 @@ export default () => (
   <div className="App">
     <Helmet defaultTitle={`Landing Page Book`}>
       <meta property="og:title" content="Landing Page Book" />
-      <meta property="description" content="Get Landing Page Book" />
+      <meta name="description" content="Get Landing Page Book" />
       <meta
         property="og:image"
         content="https://front10.com/get-landing-page-book/images/logo/facebook.png"
@@ -100,7 +100,7 @@ export default () => (
       <meta name="msapplication-TileImage" content={favicon_mstile} />
       <meta name="theme-color" content="#ffffff" />
       <link rel="shortcut icon" href={favicon} />
-      <script src="https://cdn.polyfill.io/v2/polyfill.js?features=default,Symbol" />
+      <script src="https://cdn.polyfill.io/v2/polyfill.min.js" />
     </Helmet>
     <Analytics idTracking="UA-44521541-9" />
     <Hero opacity={1} overlayColor="#212529" particlesParams={particles}>
