@@ -76,7 +76,6 @@ export default () => (
   <div className="App">
     <Helmet defaultTitle={`Get Landing Page Book`}>
       <meta property="og:title" content="Get Landing Page Book" />
-      <meta name="description" content="Get Landing Page Book" />
       <meta
         property="og:image"
         content="https://front10.com/get-landing-page-book/images/logo/facebook.png"
