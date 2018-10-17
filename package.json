@@ -1,6 +1,7 @@
 {
-    "name": "gatsby-starter-hello-world",
-    "description": "Gatsby hello world starter",
+    "name": "get-landing-page-book",
+    "version": "1.0.0",
+    "description": "Landing page for react components library",
     "license": "MIT",
     "scripts": {
         "start": "npm run develop",
