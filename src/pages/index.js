@@ -40,7 +40,6 @@ import Image from "@front10/landing-page-book/dist/components/Image";
 import Header from "@front10/landing-page-book/dist/components/Header";
 import Container from "@front10/landing-page-book/dist/components/Container";
 import Section from "@front10/landing-page-book/dist/components/Section";
-import Video from "@front10/landing-page-book/dist/components/Video";
 import Column from "@front10/landing-page-book/dist/components/Column";
 import Row from "@front10/landing-page-book/dist/components/Row";
 import Code from "@front10/landing-page-book/dist/components/Code";
@@ -50,7 +49,6 @@ import GithubButton from "@front10/landing-page-book/dist/components/GithubButto
 import BuiltWith from "@front10/landing-page-book/dist/components/BuiltWith";
 import Gif from "@front10/landing-page-book/dist/components/Gif";
 import Backers from "@front10/landing-page-book/dist/components/Backers";
-import Donation from "@front10/landing-page-book/dist/components/Donation";
 import Link from "@front10/landing-page-book/dist/components/Link";
 import Analytics from "@front10/landing-page-book/dist/components/Analytics";
 
@@ -68,18 +66,18 @@ import carousel from "../data/carousel.json";
 import { navBarCode, importThemes } from "../data/code";
 
 // favicons
-import favicon_apple from '../favicons/apple-touch-icon.png';
-import favicon from '../favicons/favicon.ico';
-import favicon_32 from '../favicons/favicon-32x32.png';
-import favicon_16 from '../favicons/favicon-16x16.png';
-import favicon_safari from '../favicons/safari-pinned-tab.svg';
-import favicon_mstile from '../favicons/mstile-144x144.png';
-// import manifest from '../favicons/manifest.json';
+import favicon_apple from "../favicons/apple-touch-icon.png";
+import favicon from "../favicons/favicon.ico";
+import favicon_32 from "../favicons/favicon-32x32.png";
+import favicon_16 from "../favicons/favicon-16x16.png";
+import favicon_safari from "../favicons/safari-pinned-tab.svg";
+import favicon_mstile from "../favicons/mstile-144x144.png";
 
 export default () => (
   <div className="App">
     <Helmet defaultTitle={`Landing Page Book`}>
       <meta property="og:title" content="Landing Page Book" />
+      <meta property="description" content="Get Landing Page Book" />
       <meta
         property="og:image"
         content="https://front10.com/get-landing-page-book/images/logo/facebook.png"
@@ -89,6 +87,10 @@ export default () => (
       <meta
         property="og:url"
         content="https://front10.com/get-landing-page-book/"
+      />
+      <link
+        rel="canonical"
+        href="https://front10.com/get-landing-page-book/index.html"
       />
       <link rel="apple-touch-icon" sizes="180x180" href={favicon_apple} />
       <link rel="icon" type="image/png" sizes="32x32" href={favicon_32} />
@@ -111,7 +113,9 @@ export default () => (
           className="main-logo"
         />
         <Header className="main-header">Landing Page Book</Header>
-        <Header className="main-subheader">React components to build!</Header>
+        <Header className="main-subheader" type="h2">
+          React components to build!
+        </Header>
         <div className="mt-5">
           <Link
             className="btn btn-primary btn-started"
@@ -361,9 +365,7 @@ export default () => (
             <div className="mt-3">
               <Hero
                 backgroundColor="#212529"
-                header="Front10"
                 minHeight="350px"
-                subHeader="Rewriting the world with React"
                 image="images/hero/map-image.png"
                 particlesParams={{
                   particles: {
@@ -379,7 +381,16 @@ export default () => (
                     }
                   }
                 }}
-              />
+              >
+                <Container>
+                  <Header className="main-header" type="h2">
+                    Front10
+                  </Header>
+                  <Header className="main-subheader" type="h3">
+                    Rewriting the world with React
+                  </Header>
+                </Container>
+              </Hero>
             </div>
           </Column>
         </Row>
