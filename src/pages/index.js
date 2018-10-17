@@ -40,7 +40,6 @@ import Image from "@front10/landing-page-book/dist/components/Image";
 import Header from "@front10/landing-page-book/dist/components/Header";
 import Container from "@front10/landing-page-book/dist/components/Container";
 import Section from "@front10/landing-page-book/dist/components/Section";
-import Video from "@front10/landing-page-book/dist/components/Video";
 import Column from "@front10/landing-page-book/dist/components/Column";
 import Row from "@front10/landing-page-book/dist/components/Row";
 import Code from "@front10/landing-page-book/dist/components/Code";
@@ -50,7 +49,6 @@ import GithubButton from "@front10/landing-page-book/dist/components/GithubButto
 import BuiltWith from "@front10/landing-page-book/dist/components/BuiltWith";
 import Gif from "@front10/landing-page-book/dist/components/Gif";
 import Backers from "@front10/landing-page-book/dist/components/Backers";
-import Donation from "@front10/landing-page-book/dist/components/Donation";
 import Link from "@front10/landing-page-book/dist/components/Link";
 import Analytics from "@front10/landing-page-book/dist/components/Analytics";
 
