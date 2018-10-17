@@ -5,12 +5,12 @@ This project was bootstrapped with [Gatsby](https://github.com/gatsbyjs/gatsby).
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://www.gatsbyjs.org/docs).
 
-# Steps to follow
+## Steps to follow
 
-#### Downloading the source code
+### Downloading the source code
 
-```
-# git clone https://github.com/front10/get-landing-page-book
+```bash
+git clone https://github.com/front10/get-landing-page-book
 ```
 
 #### Running the App
