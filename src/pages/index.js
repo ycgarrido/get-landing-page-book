@@ -73,6 +73,7 @@ export default () => (
   <div className="App">
     <Helmet defaultTitle={`Landing Page Book`}>
       <meta property="og:title" content="Landing Page Book" />
+      <meta property="description" content="Get Landing Page Book" />
       <meta
         property="og:image"
         content="https://front10.com/get-landing-page-book/images/logo/facebook.png"
@@ -96,7 +97,9 @@ export default () => (
           className="main-logo"
         />
         <Header className="main-header">Landing Page Book</Header>
-        <Header className="main-subheader">React components to build!</Header>
+        <Header className="main-subheader" type="h2">
+          React components to build!
+        </Header>
         <div className="mt-5">
           <Link
             className="btn btn-primary btn-started"
@@ -346,9 +349,7 @@ export default () => (
             <div className="mt-3">
               <Hero
                 backgroundColor="#212529"
-                header="Front10"
                 minHeight="350px"
-                subHeader="Rewriting the world with React"
                 image="images/hero/map-image.png"
                 particlesParams={{
                   particles: {
@@ -364,7 +365,16 @@ export default () => (
                     }
                   }
                 }}
-              />
+              >
+                <Container>
+                  <Header className="main-header" type="h2">
+                    Front10
+                  </Header>
+                  <Header className="main-subheader" type="h3">
+                    Rewriting the world with React
+                  </Header>
+                </Container>
+              </Hero>
             </div>
           </Column>
         </Row>
