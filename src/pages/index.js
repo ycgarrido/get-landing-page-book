@@ -65,7 +65,6 @@ import backers from "../data/backers.json";
 import carousel from "../data/carousel.json";
 import { navBarCode, importThemes } from "../data/code";
 
-// favicons
 import favicon_apple from "../favicons/apple-touch-icon.png";
 import favicon from "../favicons/favicon.ico";
 import favicon_32 from "../favicons/favicon-32x32.png";
@@ -75,8 +74,8 @@ import favicon_mstile from "../favicons/mstile-144x144.png";
 
 export default () => (
   <div className="App">
-    <Helmet defaultTitle={`Landing Page Book`}>
-      <meta property="og:title" content="Landing Page Book" />
+    <Helmet defaultTitle={`Get Landing Page Book`}>
+      <meta property="og:title" content="Get Landing Page Book" />
       <meta name="description" content="Get Landing Page Book" />
       <meta
         property="og:image"
