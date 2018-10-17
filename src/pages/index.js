@@ -67,7 +67,14 @@ import backers from "../data/backers.json";
 import carousel from "../data/carousel.json";
 import { navBarCode, importThemes } from "../data/code";
 
-import logo from "../favicon.png";
+// favicons
+import favicon_apple from '../favicons/apple-touch-icon.png';
+import favicon from '../favicons/favicon.ico';
+import favicon_32 from '../favicons/favicon-32x32.png';
+import favicon_16 from '../favicons/favicon-16x16.png';
+import favicon_safari from '../favicons/safari-pinned-tab.svg';
+import favicon_mstile from '../favicons/mstile-144x144.png';
+// import manifest from '../favicons/manifest.json';
 
 export default () => (
   <div className="App">
@@ -82,7 +89,14 @@ export default () => (
         property="og:url"
         content="https://front10.com/get-landing-page-book/"
       />
-      <link rel="shortcut icon" href={logo} />
+      <link rel="apple-touch-icon" sizes="180x180" href={favicon_apple} />
+      <link rel="icon" type="image/png" sizes="32x32" href={favicon_32} />
+      <link rel="icon" type="image/png" sizes="16x16" href={favicon_16} />
+      <link rel="mask-icon" href={favicon_safari} color="#5bbad5" />
+      <meta name="msapplication-TileColor" content="#da532c" />
+      <meta name="msapplication-TileImage" content={favicon_mstile} />
+      <meta name="theme-color" content="#ffffff" />
+      <link rel="shortcut icon" href={favicon} />
       <script src="https://cdn.polyfill.io/v2/polyfill.js?features=default,Symbol" />
     </Helmet>
     <Analytics idTracking="UA-44521541-9" />
