@@ -13,7 +13,7 @@
     },
     "homepage": "https://front10.com/get-landing-page-book/",
     "dependencies": {
-        "@front10/landing-page-book": "^0.1.16",
+        "@front10/landing-page-book": "^1.0.1",
         "babel-plugin-styled-components": "^1.8.0",
         "gatsby": "^2.0.0",
         "gatsby-plugin-react-helmet": "^3.0.0",
