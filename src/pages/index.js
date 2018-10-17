@@ -84,6 +84,10 @@ export default () => (
         content="https://front10.com/get-landing-page-book/"
       />
       <link rel="shortcut icon" href={logo} />
+      <link
+        rel="canonical"
+        href="https://front10.com/get-landing-page-book/index.html"
+      />
       <script src="https://cdn.polyfill.io/v2/polyfill.js?features=default,Symbol" />
     </Helmet>
     <Analytics idTracking="UA-44521541-9" />
