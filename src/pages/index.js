@@ -85,6 +85,7 @@ export default () => (
         content="https://front10.com/get-landing-page-book/images/logo/facebook.png"
       />
       <meta property="og:description" content="React components to build!" />
+      <meta name="description" content="React components to build!"></meta>
       <meta
         property="og:url"
         content="https://front10.com/get-landing-page-book/"
