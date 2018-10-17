@@ -20,6 +20,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [#7](https://github.com/front10/get-landing-page-book/pull/7) Change library polyfill to polyfill.min, by [@jlfalcon3589](https://github.com/jlfalcon3589)
 
+- [#8](https://github.com/front10/get-landing-page-book/pull/8) Change the links in the features, by [@jlfalcon3589](https://github.com/jlfalcon3589)
+
+- [#8](https://github.com/front10/get-landing-page-book/pull/8) Change title and description, by [@jlfalcon3589](https://github.com/jlfalcon3589)
+
 ## [0.1.0] 2018-10-15
 
 - Initial Release.
