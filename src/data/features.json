@@ -3,19 +3,19 @@
     "image": "images/features/components.png",
     "title": "+40 Components",
     "summary": "Hero, GitHub Buttons, Code, Backers, Donations, Navbar, etc. All of them well documented and tested.",
-    "link": "https://front10.com/landing-page-book"
+    "link": "https://front10.com/landing-page-book/"
   },
   {
     "image": "images/features/rocket.png",
     "title": "Easy & Fast",
     "summary": "Zero config, Online playground, Lots of examples.",
-    "link": "https://front10.com/get-landing-page-book"
+    "link": "https://front10.com/get-landing-page-book/"
   },
   {
     "image": "images/features/themes.png",
     "title": "Theming",
     "summary": "Change the components colors, fonts, and  look and feel in general using CSS variables.",
-    "link": "https://front10.com/landing-page-gastby"
+    "link": "https://front10.com/"
   },
   {
     "image": "images/features/testing.png",
