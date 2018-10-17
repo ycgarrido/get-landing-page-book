@@ -1,4 +1,4 @@
-# Landing page Gatsby
+# Get landing page book
 
 This project was bootstrapped with [Gatsby](https://github.com/gatsbyjs/gatsby).
 
