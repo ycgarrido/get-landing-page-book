@@ -80,8 +80,8 @@ export default () => (
         property="og:image"
         content="https://front10.com/get-landing-page-book/images/logo/facebook.png"
       />
-      <meta property="og:description" content="Landing page book it’s an react components library with more than 40 components and elements. This library is based en react 16.2 and was wrote with ES6, each component has been tested with Jest and has it’s own documentation file. In this library you can find components as Code, Hero, Navbar, Section, Features, GithubButtons, BrowserSupport, Gift, Bakers, Team, Sponsor, Footer, Social, Wizard, Video, Analytic and others. This library is compatible with Create React App, Gatsby and Next plataforms." />
-      <meta name="description" content="Landing page book it’s an react components library with more than 40 components and elements. This library is based en react 16.2 and was wrote with ES6, each component has been tested with Jest and has it’s own documentation file. In this library you can find components as Code, Hero, Navbar, Section, Features, GithubButtons, BrowserSupport, Gift, Bakers, Team, Sponsor, Footer, Social, Wizard, Video, Analytic and others. This library is compatible with Create React App, Gatsby and Next plataforms."></meta>
+      <meta property="og:description" content="Landing page book it’s an react components library with more than 40 components and elements. This library is based en react 16.2 and was wrote with ES6 and is compatible with Create React App, Gatsby and Next plataforms." />
+      <meta name="description" content="Landing page book it’s an react components library with more than 40 components and elements. This library is based en react 16.2 and was wrote with ES6 and is compatible with Create React App, Gatsby and Next plataforms."></meta>
       <meta
         property="og:url"
         content="https://front10.com/get-landing-page-book/"
